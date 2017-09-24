@@ -1,0 +1,253 @@
+.symbols_container h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+	
+}
+
+.symbols_container {
+	width: 90%;
+	color: grey;
+	margin: auto;
+	margin-top: 2em;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.customise_form {
+	width: 1000px;
+	margin: auto;
+}
+
+.tag1_image_container, .tag2_image_container {
+	width: 320px;
+	height: 190px;
+	background-image: url("tag_image.png");
+	text-transform: uppercase;
+}
+
+legend {
+	white-space: nowrap;
+	display: block;
+	font-size: 1em; 
+	font-weight: bold;
+	font-family: verdana;
+	color: grey;
+}
+
+.personal_info_legend {
+	margin: 1em auto;
+}
+
+.tag_legend {
+	margin:0 1em 0.5em 0;
+}
+
+.input_legend {
+	margin: 1em 0 0.5em 0;
+	
+}
+
+#tg1_line1, #tg1_line2, #tg1_line3, #tg1_line4, #tg1_line5, #tg2_line1, #tg2_line2, #tg2_line3, #tg2_line4, #tg2_line5  { 
+  position: relative;
+  left: 100px; 
+  color: rgb(64, 64, 64);
+  font-size: 1.6em;
+  font-family: monospace;
+  text-shadow: 0px -1px 1px rgb(230, 230, 230), 1px 1px 1px rgb(51, 51, 51);
+}
+
+ol {
+  list-style: none
+}
+
+ol li {
+  min-height: 1.1em;
+}
+
+#tg1_line1, #tg2_line1, #tg1_line2, #tg2_line2, #tg1_line3, #tg2_line3, #tg1_line4, #tg2_line4, #tg1_line5, #tg2_line5  {
+  top: 20px;
+}
+
+input {
+ display: block;
+}
+
+.tags_container {
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+	border-top: 1px solid rgb(0, 128, 0);
+	
+}
+
+.tag1, .tag2 {
+	margin:1em;
+	color: white;
+	
+}
+
+.tag1 input, .tag2 input {
+	border-radius: 10px;
+	background-color: rgb(179, 255, 215);
+	padding: 7px;
+	text-transform: uppercase;
+}
+
+.personal_info {
+	color: white;
+}
+
+.personal_info input {
+	border-radius: 10px;
+	background-color: rgb(179, 255, 215);
+	padding: 7px;
+}
+
+.personal_info .form_line {
+	width: 500px;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+.form_line strong {
+	width: 120px;
+}
+
+.form_line {
+	display: flex;
+	flex-direction: row;
+	margin: 1em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid rgb(64, 64, 64);
+}
+
+.form_line strong span {
+	display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+	margin: 0.3em 2em 0 0;
+	color: rgb(102, 102, 102);
+}
+
+.personal_info input {
+	width: 300px;
+	margin: auto;
+}
+
+#submit_button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.3em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(230, 230, 230);
+  background-color: rgb(0, 77, 26);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px rgb(77, 77, 77);
+  margin-left: 48%;
+}
+
+#submit_button:hover {
+	background-color: rgb(0, 128, 0);
+	color: white;
+}
+
+#submit_button:active {
+  background-color: rgb(0, 128, 0);
+  box-shadow: 0 2px rgb(51, 51, 51);
+  transform: translateY(2px);
+}
+
+.tags_images_container {
+	display: flex;
+	justify-content: center;
+	margin-top: 4em;
+}
+
+@media screen and (max-device-width : 700px){
+
+.symbols_container h2 {
+	font-size: 4em;
+	
+}
+
+.symbols_container p {
+	font-size: 3em;
+}
+
+legend {
+  font-size: 2em;
+}
+	
+#tg1_line1, #tg1_line2, #tg1_line3, #tg1_line4, #tg1_line5, #tg2_line1, #tg2_line2, #tg2_line3, #tg2_line4, #tg2_line5  { 
+  left: 170px; 
+  font-size: 3.5em;
+  text-shadow: 1px 1px 1px rgb(51, 51, 51), 1px 1px 1px rgb(230, 230, 230);
+}
+
+legend {
+	font-size: 3em;
+}
+	
+.tag1_image_container, .tag2_image_container {
+	width: 630px;
+	height: 330px;
+	background-image: url("tag_image_small_screen.png");
+}
+	
+.tags_container {
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.tags_images_container {
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_line strong {
+	width: 300px;
+	font-size: 3em;
+	white-space: nowrap;
+}
+
+.form_line strong span {
+	font-size: 0.8em;
+	white-space: nowrap;
+	margin: 0.3em 0 0.3em 0;	
+}
+
+.form_line input {
+	width: 11em;
+	font-size: 2.9em;
+	margin-left: 10px;
+}
+
+
+.personal_info .form_line {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+}
+
+.personal_info .form_line input {
+	width: 15em;
+}
+
+#submit_button {
+	margin: 1em;
+	font-size: 3em;
+	margin-left: 40%;
+	padding: 20px 30px;
+	border-radius: 20px;
+}
+
+
+
+}

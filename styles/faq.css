@@ -1,0 +1,28 @@
+.main_container {
+  max-width: 1000px;
+  margin: auto;
+  color: rgb(166, 166, 166);
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+h3 {
+	text-transform: uppercase;
+	margin: 1em 0 0.2em 0;
+	color: rgb(0, 102, 0);
+}
+
+
+p img {
+	
+	display: inline-block;
+	margin-top: 1em;
+	opacity: 0.9;
+}
+
+@media screen and (max-device-width : 700px){
+
+p img {
+	min-width: 90%;
+	}
+}

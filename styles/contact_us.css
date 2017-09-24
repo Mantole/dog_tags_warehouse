@@ -1,0 +1,126 @@
+.contact_us_container {
+	color: rgb(191, 191, 191);
+	text-align: center;
+
+}
+
+p, h2 {
+	font-family: verdana;
+}
+
+h2 {
+	margin: 1em 0em;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: rgb(51, 51, 51);
+}
+
+.contact_form input:nth-child(1), .contact_form input:nth-child(2) {
+	height: 1.5em;
+	padding: 5px;
+	background-color: rgb(128, 128, 128);
+	border: 3px solid rgb(51, 51, 51);
+	border-radius: 5px;
+	margin: 0.5em;
+	font-family: Verdana;
+
+}
+
+contact_form {
+	max-width: 900px;
+}
+
+.contact_form textarea {
+	padding: 5px;
+	background-color: rgb(128, 128, 128);
+	border: 3px solid rgb(51, 51, 51);
+	border-radius: 5px;
+	margin: 0.5em;
+	resize: none;
+	max-width: 90%;
+	font-family: verdana;
+}
+
+.contact_form_button {
+	background-color: rgb(0, 153, 51);
+	color: white;
+	padding: 10px;
+	border: 3px solid rgb(51, 51, 51);
+	border-radius: 10px;
+	height: 40px;
+	width: 90px;
+}
+
+.contact_form_button:hover {
+	background-color: rgba(0, 153, 51, 0.8);
+	cursor: pointer;
+}
+
+#submit_button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.3em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(230, 230, 230);
+  background-color: rgb(0, 77, 26);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px rgb(77, 77, 77);
+}
+
+#submit_button:hover {
+	background-color: rgb(0, 128, 0);
+	color: white;
+}
+
+#submit_button:active {
+  background-color: rgb(0, 128, 0);
+  box-shadow: 0 2px rgb(51, 51, 51);
+  transform: translateY(2px);
+}
+
+@media screen and (max-device-width : 700px){
+	
+h2 {
+	font-size: 5em;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+.contact_form input:nth-child(1), .contact_form input:nth-child(2) {
+	font-size: 3em;
+	padding: 5px;
+	background-color: rgb(128, 128, 128);
+	border: 3px solid rgb(51, 51, 51);
+	border-radius: 15px;
+	margin: 0.5em;
+	font-family: Verdana;
+
+}
+
+.contact_form textarea {
+	font-size: 3em;
+	padding: 5px;
+	background-color: rgb(128, 128, 128);
+	border: 3px solid rgb(51, 51, 51);
+	border-radius: 15px;
+	margin: 0.5em;
+	resize: none;
+	font-family: verdana;
+}
+
+#submit_button {
+	margin: 1em;
+	font-size: 3em;
+	margin-left: 10%;
+	padding: 20px 30px;
+	border-radius: 20px;
+}
+	
+}
